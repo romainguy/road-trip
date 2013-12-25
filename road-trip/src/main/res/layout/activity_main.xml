@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:r="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.curiouscreature.android.roadtrip.MainActivity">
+
+    <org.curiouscreature.android.roadtrip.IntroView
+        android:id="@+id/intro"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingBottom="32dp"
+
+        r:phase="1.0"
+        r:duration="4000"
+        r:fadeFactor="10.0"
+        r:waitRadius="25dp"
+        r:arrowLength="16dp"
+        r:arrowHeight="18dp"
+        r:strokeWidth="2.0"
+        r:strokeColor="#ffffffff" />
+
+    <org.curiouscreature.android.roadtrip.TrackingScrollView
+        android:id="@+id/scroller"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/container"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical" />
+
+    </org.curiouscreature.android.roadtrip.TrackingScrollView>
+
+</merge>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:r="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="400dp">
+
+    <org.curiouscreature.android.roadtrip.StateView
+        android:id="@+id/state"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:paddingRight="32dp"
+        android:paddingTop="32dp"
+        android:paddingBottom="32dp"
+
+        r:phase="1.0"
+        r:duration="2000"
+        r:fadeFactor="10.0"
+        r:strokeWidth="2.0"
+        r:strokeColor="#ffffffff" />
+
+    <org.curiouscreature.android.roadtrip.TrackingHorizontalScrollView
+        android:id="@+id/scroller"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/sub_container"
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:orientation="horizontal" />
+
+    </org.curiouscreature.android.roadtrip.TrackingHorizontalScrollView>
+
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Road Trip USA</string>
+    <string name="action_about">About</string>
+    <string name="text_about">See README.md in the source for license information</string>
+</resources>
