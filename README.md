@@ -1,7 +1,8 @@
 RoadTrip
 ========
 
-(C) 2013 Romain Guy
+Copyright 2013 Romain Guy
+[http://www.curious-creature.org](http://www.curious-creature.org)
 
 RoadTrip is a sample application for Android that demonstrates how to implement several visual effects:
 
@@ -11,7 +12,11 @@ RoadTrip is a sample application for Android that demonstrates how to implement 
 * Parallax scrolling, used to scroll the various maps at a different speed than other items
 * Animated action bar opacity, as seen in Google Music
 
+![RoadTrip running on Android 4.4](art/RoadTrip.png)
+
 More [detailed explanations](http://www.curious-creature.org/2013/12/21/android-recipe-4-path-tracing) can be found online.
+
+Watch a [video of the application](http://www.youtube.com/watch?v=-NxG3BE9QCg) running on a Moto X/Android 4.4.
 
 How to use this source code
 ===========================
