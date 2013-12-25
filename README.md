@@ -17,11 +17,11 @@ How to use this source code
 ===========================
 
 The road-trip project can be opened in Android Studio 0.4.0 or later. It contains a single module
-called _application_ in the _app_ folder.
+called **application** in the `app/` folder.
 
 The project can be compiled from the command line using Gradle.
 
-The actual source code and resources can be found in _app/src/main_. The only dependency is in _app/lib_.
+The actual source code and resources can be found in `app/src/main/`. The only dependency is in `app/lib/`.
 
 Source code license
 ===================
@@ -31,17 +31,17 @@ This project is subject to the [Apache License, Version 2.0](http://apache.org/l
 Artwork licenses
 ================
 
-The file _map_usa.svg_ is derived from [an original work by Theshibboleth](http://commons.wikimedia.org/wiki/File:Blank_US_Map.svg).
+The file __map\_usa.svg__ is derived from [an original work by Theshibboleth](http://commons.wikimedia.org/wiki/File:Blank_US_Map.svg).
 This file is licensed under [GNU Free Documentation License, Version 1.2](http://en.wikipedia.org/wiki/GNU_Free_Documentation_License) and [Creative Commons Attribution-Share Alike 3.0 Unported](http://creativecommons.org/licenses/by-sa/3.0/deed.en).
 
-Other _map_*.svg_ files are derived from _map_usa.svg_ and subject to the same licenses.
+Other __map\_*.svg__ files are derived from _map_usa.svg_ and subject to the same licenses.
 
-The _ic_launcher*.png_ files are derived from _map_usa.svg_ and subject to the same licenses.
+The __ic\_launcher*.png__ files are derived from _map_usa.svg_ and subject to the same licenses.
 
-All other images (.png or .jpg) are copyright Romain Guy and licensed under [Creative Commons Attribution-Noncommercial-Share Alike 2.0](http://creativecommons.org/licenses/by-nc-sa/2.0/deed.en).
+All other images (__.png__ or __.jpg__) are copyright Romain Guy and licensed under [Creative Commons Attribution-Noncommercial-Share Alike 2.0](http://creativecommons.org/licenses/by-nc-sa/2.0/deed.en).
 
 Library licenses
 ================
 
-androidsvg-1.2.0 is subject to the [Apache License, Version 2.0](http://apache.org/licenses/LICENSE-2.0.html).  
+__androidsvg-1.2.0__ is subject to the [Apache License, Version 2.0](http://apache.org/licenses/LICENSE-2.0.html).
 More information on [the official web site](https://code.google.com/p/androidsvg/).
