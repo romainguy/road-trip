@@ -13,6 +13,16 @@ RoadTrip is a sample application for Android that demonstrates how to implement 
 
 More [detailed explanations](http://www.curious-creature.org/2013/12/21/android-recipe-4-path-tracing) can be found online.
 
+How to use this source code
+===========================
+
+The road-trip project can be opened in Android Studio 0.4.0 or later. It contains a single module
+called _application_ in the _app_ folder.
+
+The project can be compiled from the command line using Gradle.
+
+The actual source code and resources can be found in _app/src/main_. The only dependency is in _app/lib_.
+
 Source code license
 ===================
 

@@ -1,72 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5675132b-cbec-47cf-b09a-a6175ccf527a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/res/drawable-xhdpi/ab_solid.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/res/drawable-xxhdpi/ab_solid.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/lib/androidsvg-1.2.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/ic_launcher-web.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/res/drawable-hdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/res/drawable-mdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/res/drawable-xhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/res/drawable-xxhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/res/drawable-nodpi/photo_01_antelope.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/res/drawable-nodpi/photo_02_tahoe.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/res/drawable-nodpi/photo_03_bryce.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/res/drawable-nodpi/photo_04_powell.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/res/drawable-nodpi/photo_05_sierra.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/res/drawable-nodpi/photo_06_rockaway.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/res/drawable-nodpi/photo_07_san_francisco.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/res/drawable-nodpi/photo_08_arches.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/res/drawable-nodpi/photo_09_horseshoe.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/res/drawable-nodpi/photo_10_sky.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/java/org/curiouscreature/android/roadtrip/IntroView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/java/org/curiouscreature/android/roadtrip/MainActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/java/org/curiouscreature/android/roadtrip/StateView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/java/org/curiouscreature/android/roadtrip/SvgHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/java/org/curiouscreature/android/roadtrip/TrackingHorizontalScrollView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/java/org/curiouscreature/android/roadtrip/TrackingScrollView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/res/layout/activity_main.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/androidsvg_1_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/res/values/attrs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/res/values/colors.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/res/values/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/res/values-w820dp/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/res/layout/item_photo.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/res/layout/item_state.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/res/menu/main.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/res/raw/map_az.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/res/raw/map_ca.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/res/raw/map_usa.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/res/raw/map_ut.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/proguard-rules.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/road-trip-road-trip.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/road-trip.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/res/values/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/road-trip/src/main/res/values/themes.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="5675132b-cbec-47cf-b09a-a6175ccf527a" name="Default" comment="First commit&#10;&#10;RoadTrip is a simple Android application that demonstrates how to&#10;implement various visuel effects.&#10;">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/.gitignore" afterPath="$PROJECT_DIR$/app/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/lib/androidsvg-1.2.0.jar" afterPath="$PROJECT_DIR$/app/lib/androidsvg-1.2.0.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/proguard-rules.txt" afterPath="$PROJECT_DIR$/app/proguard-rules.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/road-trip-road-trip.iml" afterPath="$PROJECT_DIR$/app/application.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/road-trip.iml" afterPath="$PROJECT_DIR$/app/road-trip.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/ic_launcher-web.png" afterPath="$PROJECT_DIR$/app/src/main/ic_launcher-web.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/java/org/curiouscreature/android/roadtrip/IntroView.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/curiouscreature/android/roadtrip/IntroView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/java/org/curiouscreature/android/roadtrip/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/curiouscreature/android/roadtrip/MainActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/java/org/curiouscreature/android/roadtrip/StateView.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/curiouscreature/android/roadtrip/StateView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/java/org/curiouscreature/android/roadtrip/SvgHelper.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/curiouscreature/android/roadtrip/SvgHelper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/java/org/curiouscreature/android/roadtrip/TrackingHorizontalScrollView.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/curiouscreature/android/roadtrip/TrackingHorizontalScrollView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/java/org/curiouscreature/android/roadtrip/TrackingScrollView.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/curiouscreature/android/roadtrip/TrackingScrollView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/res/drawable-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_launcher.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/res/drawable-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_launcher.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/res/drawable-nodpi/photo_01_antelope.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/photo_01_antelope.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/res/drawable-nodpi/photo_02_tahoe.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/photo_02_tahoe.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/res/drawable-nodpi/photo_03_bryce.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/photo_03_bryce.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/res/drawable-nodpi/photo_04_powell.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/photo_04_powell.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/res/drawable-nodpi/photo_05_sierra.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/photo_05_sierra.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/res/drawable-nodpi/photo_06_rockaway.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/photo_06_rockaway.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/res/drawable-nodpi/photo_07_san_francisco.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/photo_07_san_francisco.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/res/drawable-nodpi/photo_08_arches.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/photo_08_arches.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/res/drawable-nodpi/photo_09_horseshoe.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/photo_09_horseshoe.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/res/drawable-nodpi/photo_10_sky.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/photo_10_sky.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/res/drawable-xhdpi/ab_solid.9.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ab_solid.9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/res/drawable-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_launcher.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/res/drawable-xxhdpi/ab_solid.9.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ab_solid.9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/res/drawable-xxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_launcher.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/res/layout/item_photo.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_photo.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/res/layout/item_state.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_state.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/res/menu/main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/main.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/res/raw/map_az.svg" afterPath="$PROJECT_DIR$/app/src/main/res/raw/map_az.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/res/raw/map_ca.svg" afterPath="$PROJECT_DIR$/app/src/main/res/raw/map_ca.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/res/raw/map_usa.svg" afterPath="$PROJECT_DIR$/app/src/main/res/raw/map_usa.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/res/raw/map_ut.svg" afterPath="$PROJECT_DIR$/app/src/main/res/raw/map_ut.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/res/values-w820dp/dimens.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/res/values/attrs.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/road-trip/src/main/res/values/themes.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/androidsvg_1_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/androidsvg_1_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gradle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -130,10 +115,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="145" selection-end="145" vertical-scroll-proportion="-3.8888888" vertical-offset="0" max-vertical-offset="645">
+            <state line="23" column="105" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.19642857" vertical-offset="235" max-vertical-offset="795">
               <folding />
             </state>
           </provider>
@@ -142,10 +127,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SvgHelper.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/road-trip/src/main/java/org/curiouscreature/android/roadtrip/SvgHelper.java">
+      <file leaf-file-name="SvgHelper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/org/curiouscreature/android/roadtrip/SvgHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="0" selection-start="2681" selection-end="2681" vertical-scroll-proportion="0.2" vertical-offset="870" max-vertical-offset="1470">
+            <state line="88" column="0" selection-start="2681" selection-end="2681" vertical-scroll-proportion="0.0" vertical-offset="870" max-vertical-offset="1470">
               <folding>
                 <element signature="e#2530#2531#0" expanded="true" />
                 <element signature="e#2574#2575#0" expanded="true" />
@@ -860,8 +845,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/road-trip/src/main/java/org/curiouscreature/android/roadtrip/SvgHelper.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -926,59 +911,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="road-trip" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gradle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="road-trip" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="road-trip" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gradle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="road-trip" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="road-trip" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="roadtrip" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -988,7 +921,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
@@ -1003,6 +936,7 @@
     <property name="recentsLimit" value="5" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1012,7 +946,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Android Application.road-trip-road-trip">
+  <component name="RunManager" selected="Android Application.road-trip">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -1107,7 +1041,7 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="false" name="road-trip-road-trip" type="AndroidRunConfigurationType" factoryName="Android Application">
+    <configuration default="false" name="road-trip" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="road-trip-road-trip" />
       <option name="ACTIVITY_CLASS" value="" />
       <option name="MODE" value="default_activity" />
@@ -1127,7 +1061,7 @@
       <method />
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Android Application.road-trip-road-trip" />
+      <item index="0" class="java.lang.String" itemvalue="Android Application.road-trip" />
     </list>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -1148,7 +1082,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1362" height="746" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1169,7 +1103,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1196,7 +1130,7 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/road-trip/.gitignore">
+    <entry file="file://$PROJECT_DIR$/app/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="0.026086956" vertical-offset="0" max-vertical-offset="575">
           <folding />
@@ -1224,19 +1158,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/curiouscreature/android/roadtrip/SvgHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="145" selection-end="145" vertical-scroll-proportion="-3.8888888" vertical-offset="0" max-vertical-offset="645">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/road-trip/src/main/java/org/curiouscreature/android/roadtrip/SvgHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="0" selection-start="2681" selection-end="2681" vertical-scroll-proportion="0.2" vertical-offset="870" max-vertical-offset="1470">
+        <state line="88" column="0" selection-start="2681" selection-end="2681" vertical-scroll-proportion="0.0" vertical-offset="870" max-vertical-offset="1470">
           <folding>
             <element signature="e#2530#2531#0" expanded="true" />
             <element signature="e#2574#2575#0" expanded="true" />
@@ -1246,6 +1170,103 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="105" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.19642857" vertical-offset="235" max-vertical-offset="795">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>road-trip</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>androidsvg-1.2.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 
