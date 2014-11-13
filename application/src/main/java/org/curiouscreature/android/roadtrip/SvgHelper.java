@@ -55,15 +55,17 @@ public class SvgHelper {
                 Integer.MAX_VALUE, Integer.MAX_VALUE);
 
         final Path path;
+        final Path renderPath = new Path();
         final Paint paint;
         final float length;
         final Rect bounds;
+        final PathMeasure measure;
 
         SvgPath(Path path, Paint paint) {
             this.path = path;
             this.paint = paint;
 
-            PathMeasure measure = new PathMeasure(path, false);
+            measure = new PathMeasure(path, false);
             this.length = measure.getLength();
 
             sRegion.setPath(path, sMaxClip);

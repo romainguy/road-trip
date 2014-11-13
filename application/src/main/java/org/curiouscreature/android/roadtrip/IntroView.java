@@ -79,7 +79,7 @@ public class IntroView extends View {
             if (a != null) {
                 mPaint.setStrokeWidth(a.getFloat(R.styleable.IntroView_strokeWidth, 1.0f));
                 mPaint.setColor(a.getColor(R.styleable.IntroView_strokeColor, 0xff000000));
-                mPhase = a.getFloat(R.styleable.IntroView_phase, 0.0f);
+                mPhase = a.getFloat(R.styleable.IntroView_phase, 1.0f);
                 mDuration = a.getInt(R.styleable.IntroView_duration, 4000);
                 mFadeFactor = a.getFloat(R.styleable.IntroView_fadeFactor, 10.0f);
                 mRadius = a.getDimensionPixelSize(R.styleable.IntroView_waitRadius, 50);
@@ -108,7 +108,7 @@ public class IntroView extends View {
         // Note that PathDashPathEffects can lead to clipping issues with hardware rendering.
         setLayerType(LAYER_TYPE_SOFTWARE, null);
 
-        mSvgAnimator = ObjectAnimator.ofFloat(this, "phase", mPhase, 0.0f).setDuration(mDuration);
+        mSvgAnimator = ObjectAnimator.ofFloat(this, "phase", 0.0f, 1.0f).setDuration(mDuration);
 
         mWaitAnimator = ObjectAnimator.ofFloat(this, "wait", 1.0f, 0.0f).setDuration(mDuration);
         mWaitAnimator.setRepeatMode(ObjectAnimator.RESTART);
@@ -163,10 +163,10 @@ public class IntroView extends View {
                 SvgHelper.SvgPath svgPath = mPaths.get(i);
 
                 // We use the fade factor to speed up the alpha animation
-                int alpha = (int) (Math.min((1.0f - mPhase) * mFadeFactor, 1.0f) * 255.0f);
+                int alpha = (int) (Math.min(mPhase * mFadeFactor, 1.0f) * 255.0f);
                 svgPath.paint.setAlpha(alpha);
 
-                canvas.drawPath(svgPath.path, svgPath.paint);
+                canvas.drawPath(svgPath.renderPath, svgPath.paint);
             }
             canvas.restore();
         }
@@ -231,7 +231,10 @@ public class IntroView extends View {
         final int count = mPaths.size();
         for (int i = 0; i < count; i++) {
             SvgHelper.SvgPath svgPath = mPaths.get(i);
-            svgPath.paint.setPathEffect(createPathEffect(svgPath.length, mPhase, 0.0f));
+            svgPath.renderPath.reset();
+            svgPath.measure.getSegment(0.0f, svgPath.length * mPhase, svgPath.renderPath, true);
+            // Required only for Android 4.4 and earlier
+            svgPath.renderPath.rLineTo(0.0f, 0.0f);
         }
     }
 
