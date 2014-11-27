@@ -18,11 +18,19 @@ package org.curiouscreature.android.roadtrip;
 
 import android.app.Activity;
 import android.content.res.Resources;
-import android.graphics.*;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.ColorMatrix;
+import android.graphics.ColorMatrixColorFilter;
+import android.graphics.Rect;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.view.*;
+import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Space;
@@ -42,6 +50,7 @@ public class MainActivity extends Activity {
         final List<Bitmap> bitmaps = new ArrayList<Bitmap>();
 
         State(int background, int map, int[] photos) {
+
             this.background = background;
             this.map = map;
             this.photos = photos;
@@ -49,17 +58,17 @@ public class MainActivity extends Activity {
     }
 
     private final State[] mStates = {
-            new State(R.color.az, R.raw.map_az, new int[] {
+            new State(R.color.az, R.raw.map_az, new int[]{
                     R.drawable.photo_01_antelope,
                     R.drawable.photo_09_horseshoe,
                     R.drawable.photo_10_sky
             }),
-            new State(R.color.ut, R.raw.map_ut, new int[] {
+            new State(R.color.ut, R.raw.map_ut, new int[]{
                     R.drawable.photo_08_arches,
                     R.drawable.photo_03_bryce,
                     R.drawable.photo_04_powell,
             }),
-            new State(R.color.ca, R.raw.map_ca, new int[] {
+            new State(R.color.ca, R.raw.map_ca, new int[]{
                     R.drawable.photo_07_san_francisco,
                     R.drawable.photo_02_tahoe,
                     R.drawable.photo_05_sierra,
@@ -77,6 +86,7 @@ public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -92,20 +102,23 @@ public class MainActivity extends Activity {
         mIntroView.setOnReadyListener(new IntroView.OnReadyListener() {
             @Override
             public void onReady() {
+
                 loadPhotos();
             }
         });
 
         ((TrackingScrollView) findViewById(R.id.scroller)).setOnScrollChangedListener(
                 new TrackingScrollView.OnScrollChangedListener() {
-            @Override
-            public void onScrollChanged(TrackingScrollView source, int l, int t, int ol, int ot) {
-                handleScroll(source, t);
-            }
-        });
+                    @Override
+                    public void onScrollChanged(TrackingScrollView source, int l, int t, int ol, int ot) {
+
+                        handleScroll(source, t);
+                    }
+                });
     }
 
     private void handleScroll(ViewGroup source, int top) {
+
         final float actionBarHeight = getActionBar().getHeight();
         final float firstItemHeight = findViewById(R.id.scroller).getHeight() - actionBarHeight;
         final float alpha = Math.min(firstItemHeight, Math.max(0, top)) / firstItemHeight;
@@ -132,13 +145,14 @@ public class MainActivity extends Activity {
 
     @SuppressWarnings("PointlessBitwiseExpression")
     private void changeBackgroundColor(View decorView, float alpha) {
+
         float srcR = ((mAccentColor >> 16) & 0xff) / 255.0f;
-        float srcG = ((mAccentColor >>  8) & 0xff) / 255.0f;
-        float srcB = ((mAccentColor >>  0) & 0xff) / 255.0f;
+        float srcG = ((mAccentColor >> 8) & 0xff) / 255.0f;
+        float srcB = ((mAccentColor >> 0) & 0xff) / 255.0f;
 
         float dstR = ((mAccentColor2 >> 16) & 0xff) / 255.0f;
-        float dstG = ((mAccentColor2 >>  8) & 0xff) / 255.0f;
-        float dstB = ((mAccentColor2 >>  0) & 0xff) / 255.0f;
+        float dstG = ((mAccentColor2 >> 8) & 0xff) / 255.0f;
+        float dstB = ((mAccentColor2 >> 0) & 0xff) / 255.0f;
 
         int r = (int) ((srcR + ((dstR - srcR) * alpha)) * 255.0f);
         int g = (int) ((srcG + ((dstG - srcG) * alpha)) * 255.0f);
@@ -151,6 +165,7 @@ public class MainActivity extends Activity {
     }
 
     private void removeOverdraw(View decorView, float alpha) {
+
         if (alpha >= 1.0f) {
             // Note: setting a large negative translation Y to move the View
             // outside of the screen is an optimization. We could make the view
@@ -160,20 +175,31 @@ public class MainActivity extends Activity {
             // when the view is made visible again.
             mIntroView.setTranslationY(-mIntroView.getHeight() * 2.0f);
         }
+        int sdk = android.os.Build.VERSION.SDK_INT;
         if (alpha >= 1.0f && decorView.getBackground() != null) {
             mWindowBackground = decorView.getBackground();
-            decorView.setBackground(null);
+            if(sdk < android.os.Build.VERSION_CODES.JELLY_BEAN) {
+                decorView.setBackgroundDrawable(null);
+            } else {
+                decorView.setBackground(null);
+            }
         } else if (alpha < 1.0f && decorView.getBackground() == null) {
-            decorView.setBackground(mWindowBackground);
+            if(sdk < android.os.Build.VERSION_CODES.JELLY_BEAN) {
+                decorView.setBackgroundDrawable(mWindowBackground);
+            } else {
+                decorView.setBackground(mWindowBackground);
+            }
             mWindowBackground = null;
         }
     }
 
     private void loadPhotos() {
+
         final Resources resources = getResources();
         new Thread(new Runnable() {
             @Override
             public void run() {
+
                 for (State s : mStates) {
                     for (int resId : s.photos) {
                         s.bitmaps.add(BitmapFactory.decodeResource(resources, resId));
@@ -183,6 +209,7 @@ public class MainActivity extends Activity {
                 mIntroView.post(new Runnable() {
                     @Override
                     public void run() {
+
                         finishLoadingPhotos();
                     }
                 });
@@ -191,6 +218,7 @@ public class MainActivity extends Activity {
     }
 
     private void finishLoadingPhotos() {
+
         mIntroView.stopWaitAnimation();
 
         LinearLayout container = (LinearLayout) findViewById(R.id.container);
@@ -207,6 +235,7 @@ public class MainActivity extends Activity {
     }
 
     private void addState(LayoutInflater inflater, LinearLayout container, final State state) {
+
         final int margin = getResources().getDimensionPixelSize(R.dimen.activity_peek_margin);
 
         final View view = inflater.inflate(R.layout.item_state, container, false);
@@ -241,7 +270,8 @@ public class MainActivity extends Activity {
         s.setOnScrollChangedListener(new TrackingHorizontalScrollView.OnScrollChangedListener() {
             @Override
             public void onScrollChanged(TrackingHorizontalScrollView source,
-                    int l, int t, int oldl, int oldt) {
+                                        int l, int t, int oldl, int oldt) {
+
                 final float width = source.getWidth() - margin;
                 final float alpha = Math.min(width, Math.max(0, l)) / width;
 
@@ -264,8 +294,14 @@ public class MainActivity extends Activity {
     }
 
     private void removeStateOverdraw(View stateView, State state, float alpha) {
+
         if (alpha >= 1.0f && stateView.getBackground() != null) {
-            stateView.setBackground(null);
+            int sdk = android.os.Build.VERSION.SDK_INT;
+            if(sdk < android.os.Build.VERSION_CODES.JELLY_BEAN) {
+                stateView.setBackgroundDrawable(null);
+            } else {
+                stateView.setBackground(null);
+            }
             stateView.findViewById(R.id.state).setVisibility(View.INVISIBLE);
         } else if (alpha < 1.0f && stateView.getBackground() == null) {
             stateView.setBackgroundResource(state.background);
@@ -275,12 +311,14 @@ public class MainActivity extends Activity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
+
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+
         int id = item.getItemId();
         if (id == R.id.action_about) {
             Toast.makeText(this, R.string.text_about, Toast.LENGTH_LONG).show();
