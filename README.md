@@ -21,7 +21,7 @@ Watch a [video of the application](http://www.youtube.com/watch?v=-NxG3BE9QCg) r
 How to use this source code
 ===========================
 
-The road-trip project can be opened in Android Studio 0.8.14 or later. It contains a single module
+The road-trip project can be opened in Android Studio 1.0 or later. It contains a single module
 called **application** in the `app/` folder.
 
 The project can be compiled from the command line using Gradle.
