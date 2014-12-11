@@ -31,7 +31,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
-@SuppressWarnings("ConstantConditions")
+@SuppressWarnings({"ConstantConditions", "deprecation"})
 public class MainActivity extends Activity {
     private static final boolean ANIMATE_BACKGROUND = false;
 
@@ -49,17 +49,17 @@ public class MainActivity extends Activity {
     }
 
     private final State[] mStates = {
-            new State(R.color.az, R.raw.map_az, new int[] {
+            new State(R.color.az, R.array.map_az, new int[] {
                     R.drawable.photo_01_antelope,
                     R.drawable.photo_09_horseshoe,
                     R.drawable.photo_10_sky
             }),
-            new State(R.color.ut, R.raw.map_ut, new int[] {
+            new State(R.color.ut, R.array.map_ut, new int[] {
                     R.drawable.photo_08_arches,
                     R.drawable.photo_03_bryce,
                     R.drawable.photo_04_powell,
             }),
-            new State(R.color.ca, R.raw.map_ca, new int[] {
+            new State(R.color.ca, R.array.map_ca, new int[] {
                     R.drawable.photo_07_san_francisco,
                     R.drawable.photo_02_tahoe,
                     R.drawable.photo_05_sierra,
@@ -125,7 +125,7 @@ public class MainActivity extends Activity {
             View item = container.getChildAt(i);
             View v = item.findViewById(R.id.state);
             if (v != null && v.getGlobalVisibleRect(mTempRect)) {
-                ((StateView) v).reveal(source, item.getBottom());
+                ((AlternateStateView) v).reveal(source, item.getBottom());
             }
         }
     }
@@ -162,9 +162,9 @@ public class MainActivity extends Activity {
         }
         if (alpha >= 1.0f && decorView.getBackground() != null) {
             mWindowBackground = decorView.getBackground();
-            decorView.setBackground(null);
+            decorView.setBackgroundDrawable(null);
         } else if (alpha < 1.0f && decorView.getBackground() == null) {
-            decorView.setBackground(mWindowBackground);
+            decorView.setBackgroundDrawable(mWindowBackground);
             mWindowBackground = null;
         }
     }
@@ -210,7 +210,7 @@ public class MainActivity extends Activity {
         final int margin = getResources().getDimensionPixelSize(R.dimen.activity_peek_margin);
 
         final View view = inflater.inflate(R.layout.item_state, container, false);
-        final StateView stateView = (StateView) view.findViewById(R.id.state);
+        final AlternateStateView stateView = (AlternateStateView) view.findViewById(R.id.state);
         stateView.setSvgResource(state.map);
         view.setBackgroundResource(state.background);
 
@@ -265,7 +265,7 @@ public class MainActivity extends Activity {
 
     private void removeStateOverdraw(View stateView, State state, float alpha) {
         if (alpha >= 1.0f && stateView.getBackground() != null) {
-            stateView.setBackground(null);
+            stateView.setBackgroundDrawable(null);
             stateView.findViewById(R.id.state).setVisibility(View.INVISIBLE);
         } else if (alpha < 1.0f && stateView.getBackground() == null) {
             stateView.setBackgroundResource(state.background);

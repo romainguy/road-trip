@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="400dp">
 
-    <org.curiouscreature.android.roadtrip.StateView
+    <org.curiouscreature.android.roadtrip.AlternateStateView
         android:id="@+id/state"
 
         android:layout_width="match_parent"
